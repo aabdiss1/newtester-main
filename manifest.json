@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Airens Artefact ",
+    "description": "Airens Artefact ",
+    "version": "3.1.1",
+    "icons": {
+        "16": "images/icon-16x16.png",
+        "32": "images/icon-32x32.png",
+        "48": "images/icon-48x48.png",
+        "128": "images/icon-128x128.png"
+    },
+    "background": {
+        "service_worker": "./background.js"
+    },
+
+    "action": {
+        "default_popup": "./popup.html",
+        "default_icons": {
+            "16": "images/icon - 16 x16.png ",
+            "32": "images/icon-32x32.png",
+            "48": "images/icon-48x48.png",
+            "128": "images/icon-128x128.png"
+        }
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*",
+        "https://www.childline.org.uk/info-advice/bullying-abuse-safety/online-mobile-safety/remove-nude-image-shared-online/",
+        "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/405286/revenge-porn-factsheet.pdf",
+        "https://cyber.forum.yale.edu/blog/2021/7/20/deepfake-pornography-beyond-defamation-law",
+        "*://*/*"
+
+
+    ]
+}

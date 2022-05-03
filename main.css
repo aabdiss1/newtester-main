@@ -1,0 +1,28 @@
+
+instructions {
+   
+    max-width: 250px;
+    height: 250px;
+    text-align: center;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+info_title {
+    max-width: 100px;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#links {
+    text-align: center;
+}
